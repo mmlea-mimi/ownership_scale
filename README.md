@@ -105,6 +105,21 @@ A continuous score defined as:
 
 This compresses the distribution of portfolio sizes and may be useful for mapping or modeling.
 
+## Summary stats output
+
+After running the script, we generate a small summary spreadsheet with key counts for immediate reporting:
+
+- `ownership_scale_summary.xlsx`
+  - `likely_corporate_parcels`: total parcel rows in `target_properties_reproduced.csv`
+  - `large_scale_parcels`: parcels where owner group `num_properties` is 51 to 200
+  - `large_scale_units`: sum of `property_units` for parcels in `large-scale` owners
+
+The values in the current dataset are:
+
+- likely_corporate_parcels: `37061`
+- large_scale_parcels: `2653`
+- large_scale_units: `62948.603111`
+
 ## How to run
 
 From the project folder:
