@@ -104,7 +104,7 @@ df_out = df_out.rename(
 
 output_cols = [
     "owner_name",
-    "owner_address",
+    "situs_address",
     "situs_lat",
     "situs_long",
     "num_other_properties",
